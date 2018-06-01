@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>My Chart.js Chart</title>
+</head>
+<body>
+	<div class="chart-container">
+	
+			<div id="logo">Ankieta: Alkohol w dzisiejszym społeczeństwie </div>
+			
+			<div id="container">
+
+				<canvas id="myChart" ></canvas>
+				<h2>Dziękujemy za wypełnienie Ankiety </h2>
+		 
+			</div>
+
+			<script id="pie">
+				let myChart = document.getElementById('myChart').getContext('2d');
+
+				// Global Options
+				Chart.defaults.global.defaultFontFamily = 'Lato';
+				Chart.defaults.global.defaultFontSize = 18;
+				Chart.defaults.global.defaultFontColor = '#777';
+				 Chart.defaults.global.center
+
+				let massPopChart = new Chart(myChart, {
+				  type:'doughnut', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+				  data:{
+					labels:['nie pije', 'Piwo', 'Wino', 'Alkohole wysokoprocentowe'],
+					datasets:[{
+					  label:'Population',
+					  data:[
+						9,
+						36,
+						15,
+						11
+					  ],
+					  //backgroundColor:'blue',
+					  backgroundColor:[
+						'rgba(12, 255, 45, 0.6)',
+						'rgba(255, 223, 17, 0.6)',
+						'rgba(255, 51, 40, 0.6)',
+						'rgba(75, 192, 192, 0.6)'
+					  ],
+					  borderWidth:3,
+					  borderColor:'#FFFF',
+					  hoverBorderWidth:6,
+					  hoverBorderColor:'#FFFF'
+					}]
+				  },
+				  options:{
+					title:{
+					  display:true,
+					  text:'Najczęściej spożywane alkohole',
+					  fontSize:25,
+					  
+					},
+					legend:{
+					  display:true,
+					  position:'right',
+					  labels:{
+						fontColor:'#000'
+					  }
+					},
+					layout:{
+					  padding:{
+						left:50,
+						right:0,
+						bottom:0,
+						top:0
+					  }
+					},
+					tooltips:{
+					  enabled:true
+					}
+				  }
+				});
+			</script>
+		  
+		
+			
+
+				
+					
+	</div>
+				
+			
+			<div id="stopka"> Ankieta realizowana w ramach projektu </br></br></br></div>
+	
+</body>
+</html>

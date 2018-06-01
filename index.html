@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Ankieta o alkoholu</title>
+	<meta name="description" content="Wypełnij ankietę, pomagając studentom." />
+	<meta name="keywords" content="alkohol,ankieta,używki" />
+
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	
+	&amp;lt;html&amp;gt;
+ 
+&amp;lt;head&amp;gt;
+  &amp;lt;!-- including FusionCharts JavaScript file --&amp;gt;
+  &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;/path/to/fusioncharts.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;/path/to/fusioncharts.charts.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;
+ 
+&amp;lt;/html&amp;gt;
+
+	
+</head>
+
+<body>
+	
+	<div id="logo">Ankieta: Alkohol w dzisiejszym społeczeństwie </div>
+	
+	<div id="container">
+	
+	<div class="wstep">
+		
+			<h1>Ankieta jest anonimowa. Uzyskane informacje zostana wykorzystane wyłącznie w celach naukowych</h1>
+			<div style="width:790px; background-color:#dedede;padding:5px;text-align: center;">
+			Poniższe pytania są jednokrotnego wyboru. Posimy o zaznaczenie odpowiedzi zgodnych ze stanem faktycznym. 
+			</div>
+
+		</div>
+	
+		
+	
+		
+		<form action="submit" method="post/get">
+	
+		
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					1.	Płeć:
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+				
+					  <input type="radio" required name="plec" value="0"> Kobieta<br>
+					  <input type="radio" name="plec" value="1"> Mężczyzna<br>
+					
+				</div>
+				
+			</div>
+			
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					2.	Proszę podać wiek:
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+				
+						<input type="number" name="wiek" min="1" max="100" value="1-100">
+				</div>
+				
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					3.	Miejsce zamieszkania:
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+					  <input type="radio" required name="zamieszkanie" value="0"> Wieś<br>
+					  <input type="radio" required name="zamieszkanie" value="1"> Miasto<br>
+					  <input type="radio" required name="zamieszkanie" value="2"> Obrzeża miasta <br>
+				</div>
+				
+			</div>
+					<div class="pytanie">
+			
+			
+				
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					4.	Status społeczny:
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+					  <input type="radio" required name="status" value="0"> uczeń<br>
+					  <input type="radio" required name="status" value="1"> pracujący<br>
+					  <input type="radio" required name="status" value="2"> bezrobotny<br>
+				</div>
+				
+			</div>
+			
+			<div class="pytanie">
+			
+			
+				
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					5.	Ile masz dzieci? 
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+					  <input type="radio" required name="dzieci" value="0"> 0<br>
+					  <input type="radio" required name="dzieci" value="1"> 1<br>
+					  <input type="radio" required name="dzieci" value="2"> 2<br>
+					  <input type="radio" required name="dzieci" value="3"> 3<br>
+					  <input type="radio" required name="dzieci" value="4-wiecej"> Więcej<br>
+
+				</div>
+				
+			</div>
+			<div class="pytanie">
+			
+			
+				
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					6.	Czy spożyws alkohol?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+					  <input type="radio" required name="spozAlko" value="0"> Nie<br>
+					  <input type="radio" required name="spozAlko" value="1"> Tak<br>
+				</div>
+				</div>
+				
+			</div>
+					
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					7.	Stosujesz inne używki? [narkotyki, papierosy] ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+					  <input type="radio" required name="uzywki" value="0"> Nie<br>
+					  <input type="radio" required name="uzywki" value="1"> Tak<br>
+					
+				</div>
+				</div>
+				
+			</div>
+			
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					8.	Czy masz problemy zdrowotne ? [anemia, wątroba, inne]?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="zdrowie" value="0"> Nie<br>
+						<input type="radio" required name="zdrowie" value="1"> Tak<br>
+				</div>
+			</div>
+				
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					9.	W jakim wieku spożyłeś alkohol po raz pierwszy?( 0 oznacza, że nigdy nie spożywano alkoholu)
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="number" required name="wiekAlk" min="0" max="100" value="0-100">
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					10.	Najczęściej spożywany alkohol ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="rodzajAlk" value="0"> nie piję<br>
+						<input type="radio" required name="rodzajAlk" value="1"> Piwo<br>
+						<input type="radio" required name="rodzajAlk" value="2"> Wino<br>
+						<input type="radio" required name="rodzajAlk" value="3"> Alkohole wyspokoprocentowe<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					11.	Ile razy w tygodniu pijesz napoje alkoholowe?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+							
+							<input type="number" required name="czestAlk" min="0" max="7" value="0-7">
+				
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					12.	Jaką ilość drinków wypijasz podczas imprezy?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<select required name="czestAlk" value="0-10">
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>		
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>		
+							<option>10</option>
+							<option>więcej</option>
+						</select>
+				</div>
+			</div>
+					
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					13.	Czy kiedykolwiek zdarzyło Ci się nie pamiętać zdarzeń z minionej nocy podczas której spożywałeś alkohol? (urwany film)
+
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="urwanyFilm" value="0"> Nie<br>
+						<input type="radio" required name="urwanyFilm" value="1"> Tak<br>
+				</div>
+			</div>
+			
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					14.	Czy przez nadmierne spożywanie alkoholu zaniedbałeś swoje obowiązki związane z studiami/pracą/domem ?
+
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="obowiazki" value="0"> Nie<br>
+						<input type="radio" required name="obowiazki" value="1"> Tak<br>
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					15.	Czy ktoś z twoich bliskich /zwrócił Tobie uwagę związaną z nadmierną ilością spożywanego przez Ciebie alkoholu ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="uwagaAlk" value="0"> Nie<br>
+						<input type="radio" required name="uwagaAlk" value="1"> Tak<br>
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					16.	Czy wdałeś się w konflikt z prawem, po spożyciu alkoholu ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="konfliktPrawo" value="0"> Nie<br>
+						<input type="radio" required name="konfliktPrawo" value="1"> Tak<br>
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					17.	Czy zdarzyło Ci się prowadzić samochód pod wpływem alkoholu ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="autoAlk" value="0"> Nie<br>
+						<input type="radio" required name="autoAlk" value="1"> Tak<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					18.	Czy podczas spożywania alkoholu (np.imprezy) sięgasz po inne używki ?
+
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="imprezaUzyw" value="0"> Nie<br>
+						<input type="radio" required name="imprezaUzyw" value="1"> Papierosy<br>
+						<input type="radio" required name="imprezaUzyw" value="2"> Narkotyki<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					19.	Czy zdarzyło Ci się być na „wytrzeźwiałce”?
+
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="wytrzez" value="0"> Nie<br>
+						<input type="radio" required name="wytrzez" value="1"> Tak<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					20.	Czy pracownik zdrowia/ lekarz zasugerował Ci zaprzestanie picia alkoholu po przeprowadzeniu badań?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="pracownikZdrow" value="0"> Nie<br>
+						<input type="radio" required name="pracownikZdrow" value="1"> Tak<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:5px;font-weight:700;color:#fff;">
+					21.	Czy uważasz, ze masz problem z alkoholem? [spożywasz nadmierne ilości alkoholu] ?
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:5px;">
+					
+						<input type="radio" required name="problem" value="0"> Nie<br>
+						<input type="radio" required name="problem" value="1"> Tak<br>
+					
+				</div>
+			</div>
+			<div class="pytanie">
+				<div style="width:790px; background-color:#314004;padding:9px;font-weight:700;color:#fff;text-align: center;">
+					Dziękujęmy za poświecony czas! :D
+				</div>
+				<div style="width:790px; background-color:#dedede;padding:9px;text-align: center;">
+					
+					
+						  <button class="button" type="submit" required style="vertical-align:middle" name="wyslijAnkiete">Wyślij</button>
+						  
+					
+				</div>
+			</div>
+		</form>
+		
+	</div>
+	
+	<div id="stopka"> Ankieta realizowana w ramach projektu </div>
+
+</body>
+</html>

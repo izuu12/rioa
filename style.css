@@ -1,0 +1,128 @@
+body
+{
+	/* Background pattern from subtlepatterns.com */
+	background-image: url("img/tlo.png");
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+
+#logo
+{
+	width: 100%;
+	height: 50px;
+	background-color: #485b3b;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 0px 5px 0px;
+	letter-spacing: 3px;
+	border-bottom: 2px solid #33402a;
+	text-shadow:
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+}
+#myChart
+{
+	width="256";
+	height="256";
+	
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 878px;
+	padding: 10px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+h1
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.wstep
+{
+	padding: 20px 40px;
+	text-align: justify;
+}
+#spis
+{
+	width: 780px;
+	padding-left: 100px;
+}
+
+
+
+.pytanie
+{
+	padding: 20px 40px;
+	text-align: justify;
+}
+
+h1
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+h2
+{
+	font-size: xx-large;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	
+}
+
+
+
+#stopka
+{
+	width: 100%;
+	height: 46px;
+	background-color: #485b3b;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px 0px 5px 0px;
+	letter-spacing: 5px;
+	border-top: 2px solid #33402a;
+	text-shadow:
+	2px 2px 0 #33402a,
+	-2px 2px 0 #33402a,
+	-2px -2px 0 #33402a,
+	2px -2px 0 #33402a;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #485b3b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #314004}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
